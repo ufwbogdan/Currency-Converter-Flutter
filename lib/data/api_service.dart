@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-// this is where the request is being built using the base url and the api key for fixer
+// this is where the request is being built using the api key provided in the environment when running the app
 class ApiService {
   static const String _apiKey = String.fromEnvironment('EXCHANGE_API_KEY');
   static const String _baseUrl =
